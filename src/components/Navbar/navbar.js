@@ -60,7 +60,12 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className='nav-hidden' style={{ display: val ? '' : 'none' }}>
+      <div
+        className='nav-hidden'
+        style={{ display: val ? '' : 'none' }}
+        onMouseEnter={() => setVal(true)}
+        onMouseLeave={() => setVal(false)}
+      >
         <div className='hid1'>
           <Menu />
         </div>

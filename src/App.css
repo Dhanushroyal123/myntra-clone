@@ -40,8 +40,10 @@
   font-weight: 300;
   color: gray;
   cursor: pointer;
+  transition: 0.1s;
 }
 .nav-hidden li:hover {
+  font-size: 16px;
   color: black;
   font-weight: 600;
 }

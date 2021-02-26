@@ -69,13 +69,13 @@ const Navbar = () => {
         <div className='hid1'>
           <Menu />
         </div>
-        <div className='hid1'>
+        <div className='hid1' style={{ backgroundColor: '#f8f8f8' }}>
           <Menu />
         </div>
         <div className='hid1'>
           <Menu />
         </div>
-        <div className='hid1'>
+        <div className='hid1' style={{ backgroundColor: '#f8f8f8' }}>
           <Menu />
         </div>
         <div className='hid1'>
@@ -86,7 +86,8 @@ const Navbar = () => {
   )
 }
 
-const Menu = () => {
+const Menu = (props) => {
+  console.log(props.bcolor)
   return (
     <>
       <div

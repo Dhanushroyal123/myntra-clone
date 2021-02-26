@@ -36,11 +36,14 @@
 .nav-hidden li {
   list-style: none;
   padding: 2px;
+  font-size: 15px;
   font-weight: 300;
+  color: gray;
   cursor: pointer;
 }
 .nav-hidden li:hover {
-  font-weight: 400;
+  color: black;
+  font-weight: 600;
 }
 
 .hid1 {
@@ -94,7 +97,7 @@
   border: none;
   outline: none;
   padding: 12px;
-  background-color: #f5f5f6;
+  background-color: #f5f5fe;
   width: 400px;
 }
 
